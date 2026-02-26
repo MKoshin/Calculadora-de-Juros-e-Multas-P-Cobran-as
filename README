@@ -1,0 +1,101 @@
+# 🧮 Calculadora de Juros e Multa
+
+Calculadora simples para calcular o valor total de uma cobrança com juros e multa por atraso.
+Projeto desenvolvido para fins de estudo utilizando HTML, CSS e JavaScript.
+
+---
+
+## 📸 Preview
+
+<!-- Tire um print do seu projeto e salve como screenshot.png -->
+![Preview do projeto]
+
+---
+
+## 🚀 Como Funciona
+
+O usuário insere os seguintes valores:
+
+| Campo         | Descrição                          |
+|---------------|------------------------------------|
+| **Valor**     | Valor original da cobrança (R$)    |
+| **Juros**     | Taxa de juros ao dia (%)           |
+| **Multa**     | Percentual de multa por atraso (%) |
+| **Dias**      | Quantidade de dias em atraso       |
+
+O sistema calcula e exibe o **valor total** da cobrança com juros e multa aplicados.
+O sistema gera uma lista dos valores calculados recentemente. (uso de localStorage)
+O sistema possui botão com funcionalidade de limpar a lista.
+
+---
+
+## 📐 Cálculo Realizado
+
+```
+Valor da Multa  = Valor × (Multa / 100)
+Valor dos Juros = Valor × (Juros / 100) × Dias
+Total           = Valor + Valor da Multa + Valor dos Juros
+```
+
+### Exemplo:
+
+| Campo     | Valor       |
+|-----------|-------------|
+| Valor     | R$ 500,00   |
+| Juros     | 1% ao dia   |
+| Multa     | 2%          |
+| Dias      | 10 dias     |
+| **Total** | **R$ 560,00** |
+
+---
+
+## 🛠️ Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 📂 Estrutura
+
+```
+calculadora-juros/
+├── index.html
+├── index.css
+├── calculadora.js
+└── README.md
+```
+
+---
+
+## 💻 Como Usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/MKoshin/calculadora-juros.git
+   ```
+
+2. Abra o arquivo `index.html` no navegador.
+
+> Não precisa instalar nada. É só abrir e usar!
+
+---
+
+## 📚 Aprendizados
+
+Projeto desenvolvido para praticar:
+
+- Manipulação do DOM com JavaScript
+- Captura de valores de inputs
+- Cálculos matemáticos com JS
+- Armazenamento com `localStorage`
+- Inserção dinâmica de elementos no HTML
+
+---
+
+## 👤 Autor
+
+Feito por **MKoshin** — projeto de estudo 📖
+
+[![GitHub](https://img.shields.io/badge/GitHub-MKoshin-181717?style=flat&logo=github)](https://github.com/MKoshin)
