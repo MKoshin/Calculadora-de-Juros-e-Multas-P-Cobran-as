@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculadora de Juros/Multa</title>
+
+</head>
+<body>
+    <section class = "container">
+
+        <h1> Calculadora de Juros/Multa</h1>
+
+        <form action="" class="form-calculadora" id="form-calculadora">
+
+            <label for="input-valor">Valor da cobrança</label>
+            <input type="text" id="input-valor" name="input-valor">
+
+            <label for="input-dias">Quantidade de Dias (Atraso) </label>
+            <input type="text" id="input-dias" name="input-dias">
+
+            <label for="input-juros">Juros % (obs: nao precisa da %)</label>
+            <input type="text" id="input-juros" name="input-juros">
+
+            <label for="input-multa">Multa % (obs: nao precisa da %)</label>
+            <input type="text" id="input-multa" name="input-multa">
+
+            <button type="submit">Calcular</button>
+            <button type="button" id="limparHistorico">Limpar Histórico</button>
+
+        </form>
+
+        <div id="resultado"></div>
+
+    </section>
+
+    <div id="listaP">
+
+        <h1>Listas de Resultados</h1>
+        <ul id="lista-resultados"></ul>
+    </div>
+
+    <script src="calculadora.js"></script>
+
+</body>
+</html>
